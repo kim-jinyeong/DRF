@@ -5,4 +5,4 @@ class Question(models.Model):
     subject = models.CharField(max_length=100)
     content = models.TextField()
     create_date = models.DateTimeField(auto_now_add=True)
-    modified_at = models.DateTimeField(auto_now=True)
+    modified_date = models.DateTimeField(auto_now=True)
